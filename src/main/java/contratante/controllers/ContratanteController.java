@@ -40,7 +40,7 @@ public class ContratanteController {
 
    @PutMapping(path = "/{id}")
    public ResponseEntity<Contratante> update(@PathVariable(name = "id") String id, @RequestBody Contratante cliente) {
-      cliente.setId(id);
+      cliente.setCnpj(id);
       return ResponseEntity.ok(this.contratanteInterface.update(cliente));
    }
 
