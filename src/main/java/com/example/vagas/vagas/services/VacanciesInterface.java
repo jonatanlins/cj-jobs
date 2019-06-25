@@ -1,8 +1,8 @@
-package com.example.vagas.services;
+package com.example.vagas.vagas.services;
 
 import java.util.List;
 
-import com.example.vagas.models.Vacancies;
+import com.example.vagas.vagas.models.Vacancies;
 
 public interface VacanciesInterface {
 
