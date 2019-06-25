@@ -1,4 +1,4 @@
-package vagas;
+package com.example.vagas;
 
 import org.springframework.boot.SpringApplication;
 

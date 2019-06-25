@@ -1,4 +1,4 @@
-package vagas.models;
+package com.example.vagas.models;
 
 import java.util.Date;
 
