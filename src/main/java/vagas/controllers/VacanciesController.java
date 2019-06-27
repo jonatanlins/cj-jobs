@@ -1,4 +1,4 @@
-package com.example.vagas.vagas.controllers;
+package vagas.controllers;
 
 import java.util.List;
 
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.vagas.vagas.models.Vacancies;
-import com.example.vagas.vagas.services.VacanciesInterface;
+import vagas.models.Vacancies;
+import vagas.services.VacanciesInterface;
 
 @RestController
 @RequestMapping(path = "/api/vacancies")

@@ -1,13 +1,13 @@
-package com.example.vagas.vagas.services;
+package vagas.services;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.vagas.vagas.models.Vacancies;
-import com.example.vagas.vagas.repositories.VacanciesRepository;
-import com.example.vagas.vagas.services.VacanciesInterface;
+import vagas.models.Vacancies;
+import vagas.repositories.VacanciesRepository;
+import vagas.services.VacanciesInterface;
 
 @Service
 public class VacanciesService implements VacanciesInterface {
