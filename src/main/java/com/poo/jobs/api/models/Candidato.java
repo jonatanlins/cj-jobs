@@ -10,8 +10,10 @@ public class Candidato {
 	private String cpf;
 	private String nome;
 	private String dn;
-	private String areaAtuacao;
+	private String curso;
 	private String habilidades;
+	private String email;
+	private String telefone;
 	
 	public String getCpf() {
 		return cpf;
@@ -36,12 +38,12 @@ public class Candidato {
 		this.dn = dn;
 	}
 
-	public String getAreaAtuacao() {
-		return areaAtuacao;
+	public String getCurso() {
+		return curso;
 	}
 
-	public void setAreaAtuacao(String areaAtuacao) {
-		this.areaAtuacao = areaAtuacao;
+	public void setCurso(String curso) {
+		this.curso = curso;
 	}
 
 	public String getHabilidades() {
@@ -50,5 +52,21 @@ public class Candidato {
 
 	public void setHabilidades(String habilidades) {
 		this.habilidades = habilidades;
+	}
+
+	public String getTelefone() {
+		return telefone;
+	}
+
+	public void setTelefone(String telefone) {
+		this.telefone = telefone;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
 	}
 }

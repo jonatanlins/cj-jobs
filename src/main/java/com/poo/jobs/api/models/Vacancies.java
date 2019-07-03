@@ -12,11 +12,11 @@ public class Vacancies {
   private String id;
   @Indexed(unique = true)
   private String cnpj;
-  private String description;
-  private String job;
-  private String scheduleWork;
-  private String salary;
-  private Date createAt = new Date();
+  private String descricao;
+  private String nome;
+  private String cargaHoraria;
+  private String salario;
+  private Date dataCriacao = new Date();
 
   public String getCnpj() {
     return cnpj;
@@ -26,44 +26,44 @@ public class Vacancies {
     this.cnpj = cnpj;
   }
 
-  public String getDescription() {
-    return description;
+  public String getDescricao() {
+    return descricao;
   }
 
-  public void setDescription(String description) {
-    this.description = description;
+  public void setDescricao(String descricao) {
+    this.descricao = descricao;
   }
 
-  public String getJob() {
-    return job;
+  public String getNome() {
+    return nome;
   }
 
-  public void setJob(String job) {
-    this.job = job;
+  public void setNome(String nome) {
+    this.nome = nome;
   }
 
-  public String getScheduleWork() {
-    return scheduleWork;
+  public String getCargaHoraria() {
+    return cargaHoraria;
   }
 
-  public void setScheduleWork(String scheduleWork) {
-    this.scheduleWork = scheduleWork;
+  public void setCargaHoraria(String CH) {
+    this.cargaHoraria = CH;
   }
 
-  public String getSalary() {
-    return salary;
+  public String getSalario() {
+    return salario;
   }
 
-  public void setSalary(String salary) {
-    this.salary = salary;
+  public void setSalario(String salario) {
+    this.salario = salario;
   }
 
-  public Date getCreateAt() {
-    return createAt;
+  public Date getDataCriacao() {
+    return dataCriacao;
   }
 
-  public void setCreateAt(Date createAt) {
-    this.createAt = new Date();
+  public void setCriacao(Date createAt) {
+    this.dataCriacao = new Date();
   }
 
   public String getId() {
