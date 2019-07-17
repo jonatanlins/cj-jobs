@@ -7,6 +7,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Candidato {
 
 	@Id
+	private String id;
 	private String cpf;
 	private String nome;
 	private String dn;
@@ -14,6 +15,7 @@ public class Candidato {
 	private String habilidades;
 	private String email;
 	private String telefone;
+	private String vagas;
 	
 	public String getCpf() {
 		return cpf;
@@ -68,5 +70,13 @@ public class Candidato {
 
 	public void setEmail(String email) {
 		this.email = email;
+	}
+
+	public String getVagas() {
+		return vagas;
+	}
+
+	public void setVagas(String vagas) {
+		this.vagas = vagas;
 	}
 }

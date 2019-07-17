@@ -19,7 +19,7 @@ import com.poo.jobs.api.services.ContratanteInterface;
 
 @CrossOrigin(maxAge = 3600)
 @RestController
-@RequestMapping(path = "/api/contratante")
+@RequestMapping(path = "/contratantes")
 public class ContratanteController {
 
 	@Autowired

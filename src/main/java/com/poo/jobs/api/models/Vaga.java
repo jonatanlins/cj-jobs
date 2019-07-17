@@ -10,13 +10,13 @@ public class Vaga {
 
   @Id
   private String id;
-  @Indexed(unique = true)
   private String cnpj;
   private String descricao;
   private String nome;
-  private String cargaHoraria;
-  private String salario;
+  private int cargaHoraria;
+  private int salario;
   private Date dataCriacao = new Date();
+  
 
   public String getCnpj() {
     return cnpj;
@@ -42,19 +42,19 @@ public class Vaga {
     this.nome = nome;
   }
 
-  public String getCargaHoraria() {
+  public int getCargaHoraria() {
     return cargaHoraria;
   }
 
-  public void setCargaHoraria(String CH) {
+  public void setCargaHoraria(int CH) {
     this.cargaHoraria = CH;
   }
 
-  public String getSalario() {
+  public int getSalario() {
     return salario;
   }
 
-  public void setSalario(String salario) {
+  public void setSalario(int salario) {
     this.salario = salario;
   }
 

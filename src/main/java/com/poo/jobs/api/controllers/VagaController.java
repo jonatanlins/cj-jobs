@@ -19,7 +19,7 @@ import com.poo.jobs.api.services.VagaInterface;
 
 @CrossOrigin(maxAge = 3600)
 @RestController
-@RequestMapping(path = "/api/vagas")
+@RequestMapping(path = "/vagas")
 public class VagaController {
 
 	@Autowired

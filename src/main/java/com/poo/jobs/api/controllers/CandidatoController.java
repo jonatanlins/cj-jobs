@@ -19,7 +19,7 @@ import com.poo.jobs.api.services.CandidatoInterface;
 
 @CrossOrigin(maxAge = 3600)
 @RestController
-@RequestMapping(path = "/api/candidato")
+@RequestMapping(path = "/candidatos")
 public class CandidatoController {
 
 	@Autowired
